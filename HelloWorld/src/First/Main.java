@@ -1,7 +1,5 @@
 package First;
-
 public class Main {
-
     static byte b=8;
     static short sh=16;
     static int it =32;
@@ -28,7 +26,9 @@ public class Main {
         System.out.println("String: " + str);
         System.out.println("Char: " + ch);
     }
-//ctrl+Space=методи об'єкту
+/*ctrl+Space=методи об'єкту
+ctrl+D=копіювати поточний рядок
+ctrl+Y=Видалити поточний рядок*/
     public static void main(String[] arg){
         variables();
     }
