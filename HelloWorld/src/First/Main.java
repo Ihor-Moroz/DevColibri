@@ -1,5 +1,6 @@
 package First;
 public class Main {
+
     static byte b=8;
     static short sh=16;
     static int it =32;
@@ -13,6 +14,7 @@ public class Main {
 
     static String str="String";
     static char ch='c';
+    //значееня це розмір у байтах
 
     public static void variables(){
         System.out.println("Byte: " + b);
@@ -26,11 +28,31 @@ public class Main {
         System.out.println("String: " + str);
         System.out.println("Char: " + ch);
     }
-/*ctrl+Space=методи об'єкту
+    /*ctrl+Space=методи об'єкту
 ctrl+D=копіювати поточний рядок
 ctrl+Y=Видалити поточний рядок*/
+
+    static final int CONST=55;//final-константа
+
+    static int ai=2;
+    static double bi=2.9;
+    static char d='0';
+
+    static Integer inc=16;
+    static Float flc=32.0f;
+    static Double dlc=64.0;
+    static Short shc=8;
+    static String strc="Str";
+
+
     public static void main(String[] arg){
-        variables();
+        //variables();
+        /*int ci=(int)bi;//обрізає дробову частину
+        int cd=(int)d;
+        //Number n=new Double(2.2);
+        Integer temp1=flc.intValue();
+        temp1=dlc.intValue();
+        System.out.println(temp1);*/
     }
 
 }
