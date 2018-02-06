@@ -53,10 +53,27 @@ ctrl+Y=Видалити поточний рядок*/
         Integer temp1=flc.intValue();
         temp1=dlc.intValue();
 
-        int a=-4;
+        int a=4;
         float b=5.2f;
         double c=Math.PI +Math.abs(a)+ b;
 
+        if(a==3){
+            System.out.println("a=3");
+        } else if(a<3) {
+            System.out.println("a<3");
+        }else if(a>3){
+            System.out.println("a>3");
+        }
+
+        switch(a){
+            case 3:
+                System.out.println("3");
+                break;
+            case 4:
+                System.out.println("4");
+                break;
+
+        }
     }
 
 }
