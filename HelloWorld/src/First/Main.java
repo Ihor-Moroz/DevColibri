@@ -58,22 +58,32 @@ ctrl+Y=Видалити поточний рядок*/
         double c=Math.PI +Math.abs(a)+ b;
 
         if(a==3){
-            System.out.println("a=3");
+            //System.out.println("a=3");
         } else if(a<3) {
-            System.out.println("a<3");
+            //System.out.println("a<3");
         }else if(a>3){
-            System.out.println("a>3");
+            //System.out.println("a>3");
         }
 
         switch(a){
             case 3:
-                System.out.println("3");
+                //System.out.println("3");
                 break;
             case 4:
-                System.out.println("4");
+                //System.out.println("4");
                 break;
-
         }
+        //Логічні оператори
+        //Логічне І - &&
+        //Логічне АБО - ||
+        //Логічне НЕ - !
+        a=5;
+        b=4;
+        if(a==b || bf) {
+            System.out.println("True");
+        }
+
+        
     }
 
 }
