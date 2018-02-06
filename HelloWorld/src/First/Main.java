@@ -47,16 +47,20 @@ ctrl+Y=Видалити поточний рядок*/
 
     public static void main(String[] arg){
         //variables();
+
+        //Приведення типів
         int ci=(int)bi;//обрізає дробову частину
         int cd=(int)d;
         //Number n=new Double(2.2);
         Integer temp1=flc.intValue();
         temp1=dlc.intValue();
 
+        //Математичні функції
         int a=4;
         float b=5.2f;
         double c=Math.PI +Math.abs(a)+ b;
 
+        //Умови
         if(a==3){
             //System.out.println("a=3");
         } else if(a<3) {
@@ -77,13 +81,26 @@ ctrl+Y=Видалити поточний рядок*/
         //Логічне І - &&
         //Логічне АБО - ||
         //Логічне НЕ - !
-        a=5;
+        a=10;
         b=4;
         if(a==b || bf) {
             System.out.println("True");
         }
 
-        
+        //Цикли
+        for(int i=0; i<10;i++){//доки посередині правда
+            //System.out.println(i);
+        }
+
+        while(a>0){//Доки в дужках правда
+            //System.out.println(a);
+            a--;
+        }
+
+        String[] st="Hello World, I am Ihor Moroz".split(" ");//поділ строки по значенню regex
+        for (String s:st) {//по черзі у змінну "s" будуть поміщені окремі елементи масиву строк "st"
+            System.out.println(s);
+        }
     }
 
 }
