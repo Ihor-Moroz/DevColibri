@@ -99,8 +99,15 @@ ctrl+Y=Видалити поточний рядок*/
 
         String[] st="Hello World, I am Ihor Moroz".split(" ");//поділ строки по значенню regex
         for (String s:st) {//по черзі у змінну "s" будуть поміщені окремі елементи масиву строк "st"
-            System.out.println(s);
+            //System.out.println(s);
         }
+
+        //System.out.println(calcSum(5,7));
+
     }
 
+        //Функції
+        static int calcSum(int a, int b){
+            return a+b;
+        }
 }
