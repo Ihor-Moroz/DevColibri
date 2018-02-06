@@ -102,12 +102,17 @@ ctrl+Y=Видалити поточний рядок*/
             //System.out.println(s);
         }
 
-        //System.out.println(calcSum(5,7));
+        System.out.println(calcSum(-2,2));
+
+        //Рекурсія
 
     }
 
         //Функції
         static int calcSum(int a, int b){
-            return a+b;
+        if((a+b)==0) {
+            calcSum(1, 1);
+        }
+        return a+b;
         }
 }
