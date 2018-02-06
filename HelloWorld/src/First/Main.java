@@ -47,12 +47,16 @@ ctrl+Y=Видалити поточний рядок*/
 
     public static void main(String[] arg){
         //variables();
-        /*int ci=(int)bi;//обрізає дробову частину
+        int ci=(int)bi;//обрізає дробову частину
         int cd=(int)d;
         //Number n=new Double(2.2);
         Integer temp1=flc.intValue();
         temp1=dlc.intValue();
-        System.out.println(temp1);*/
+
+        int a=-4;
+        float b=5.2f;
+        double c=Math.PI +Math.abs(a)+ b;
+
     }
 
 }
