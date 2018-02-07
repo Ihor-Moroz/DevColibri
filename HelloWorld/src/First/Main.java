@@ -102,10 +102,32 @@ ctrl+Y=Видалити поточний рядок*/
             //System.out.println(s);
         }
 
+        //Рекурсія
         System.out.println(calcSum(-2,2));
 
-        //Рекурсія
-
+        //Масиви
+        int[] nums= new int[10];
+        nums[0]=10;
+        nums[1]=5;
+        nums[2]=513;
+        nums[3]=15;
+        nums[4]=5684;
+        nums[5]=5651;
+        nums[6]=84;
+        nums[7]=13;
+        nums[8]=89;
+        nums[9]=864;
+        for (int i=0;i<nums.length;i++) {
+            //System.out.println(i+" : "+nums[i]);
+        }
+        String[] strs=new String[3];
+        strs[0]="Hello";
+        strs[1]=" ";
+        strs[2]="Ihor";
+        for (String s:strs
+             ) {
+            System.out.print(s);
+        }
     }
 
         //Функції
