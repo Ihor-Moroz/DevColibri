@@ -1,20 +1,22 @@
+import devCat.Cat;
+import devPeople.People;
+
 public class Main {
 
     static Cat cat= new Cat();
     static People people=new People();
 
     public static void main(String[] args) {
-        cat.name="John";
-        cat.age=3;
-        cat.poroda="Brodyaga";
+        cat.setName("John");
+        cat.setAge(3);
+        cat.setPoroda("Brodyaga");
 
-        people.name="Ihor";
-        people.surname="Surname";
-        people.age=20;
-        people.cat=cat;
+        people.setName("Ihor");
+        people.setSurname("Surname");
+        people.setAge(20);
+        people.setCat(cat);
 
         System.out.println(people);
-        cat.say();
-        people.cat.say();
+        people.getCat().say();
     }
 }
