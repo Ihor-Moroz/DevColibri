@@ -126,8 +126,10 @@ ctrl+Y=Видалити поточний рядок*/
         strs[2]="Ihor";
         for (String s:strs
              ) {
-            System.out.print(s);
+            //System.out.print(s);
         }
+
+
     }
 
         //Функції
