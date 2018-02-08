@@ -49,6 +49,6 @@ public class People {
 
     @Override
     public String toString() {
-        return "devPeople.devPeople[Ім'я-" + name +","+"Прізвище-"+surname+","+"Вік-"+ age+","+"Кіт-" +cat+"]";
+        return "Ім'я-" + name +","+"Прізвище-"+surname+","+"Вік-"+ age+","+"Кіт-" +cat;
     }
 }

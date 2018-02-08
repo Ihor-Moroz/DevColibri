@@ -43,6 +43,6 @@ public class Cat {
     //alt+insert
     @Override
     public String toString() {
-        return "devCat.Cat[Ім'я-" + name +","+"Порода-"+poroda+","+"Вік-"+ age+"]";
+        return "Ім'я-" + name +","+"Порода-"+poroda+","+"Вік-"+ age;
     }
 }

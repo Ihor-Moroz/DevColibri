@@ -1,5 +1,6 @@
 import devCat.Cat;
 import devPeople.People;
+import devPeople.Sportsman;
 
 public class Main {
 
@@ -10,6 +11,10 @@ public class Main {
 
         cat=new Cat("John",2,"Brodyaga");
         people=new People("Ihor", "Moroz", 20, cat);
-        //extence-наслідування
+        //extends-наслідування
+        //super-звертання до батьківського класу
+        //null-пустота, пам'ять не виділяється
+        Sportsman sportsman=new Sportsman("Andriy", "Moroz", 15,null, "Baseball");
+        //System.out.println(sportsman);
     }
 }
