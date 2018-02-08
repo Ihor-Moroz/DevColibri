@@ -1,6 +1,6 @@
 package devCat;
 
-public class Cat {
+public class Cat extends Animals{
 
     private String name;
     private int age;
@@ -36,6 +36,12 @@ public class Cat {
         this.poroda = poroda;
     }
 
+    @Override
+    public void eat() {
+        System.out.println("Я їм");
+    }
+
+    @Override
     public void say(){
         System.out.println("Мяяяяуууу");
     }

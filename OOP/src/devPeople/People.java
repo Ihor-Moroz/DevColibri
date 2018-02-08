@@ -47,6 +47,10 @@ public class People {
         this.cat = cat;
     }
 
+    public void sayHello(){
+        System.out.println("Hello People");
+    }
+
     @Override
     public String toString() {
         return "Ім'я-" + name +","+"Прізвище-"+surname+","+"Вік-"+ age+","+"Кіт-" +cat;

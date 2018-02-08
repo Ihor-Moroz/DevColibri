@@ -18,6 +18,11 @@ public class Sportsman extends People{
     }
 
     @Override
+    public void sayHello(){
+        System.out.println("Hello Sportsman");
+    }
+
+    @Override
     public String toString() {
         return super.toString()+",Тип-"+typeSport;
     }

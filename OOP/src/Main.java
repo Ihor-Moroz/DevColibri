@@ -16,5 +16,8 @@ public class Main {
         //null-пустота, пам'ять не виділяється
         Sportsman sportsman=new Sportsman("Andriy", "Moroz", 15,null, "Baseball");
         //System.out.println(sportsman);
+        //people.sayHello();
+        //sportsman.sayHello();
+        cat.eat();
     }
 }
