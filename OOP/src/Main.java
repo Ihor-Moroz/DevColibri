@@ -1,6 +1,8 @@
 import devCat.Cat;
 import devPeople.People;
 import devPeople.Sportsman;
+import impl.DriverBus;
+import impl.Transport;
 
 public class Main {
 
@@ -18,6 +20,11 @@ public class Main {
         //System.out.println(sportsman);
         //people.sayHello();
         //sportsman.sayHello();
-        cat.eat();
+        //cat.eat();
+        //DriverBus d=new DriverBus();
+        //System.out.println(d.getSpeed());
+        //d.go();
+        //d.setCategory("B");
+        //d.go();
     }
 }
