@@ -3,20 +3,13 @@ import devPeople.People;
 
 public class Main {
 
-    static Cat cat= new Cat();
-    static People people=new People();
+    static Cat cat;
+    static People people;
 
     public static void main(String[] args) {
-        cat.setName("John");
-        cat.setAge(3);
-        cat.setPoroda("Brodyaga");
 
-        people.setName("Ihor");
-        people.setSurname("Surname");
-        people.setAge(20);
-        people.setCat(cat);
-
-        System.out.println(people);
-        people.getCat().say();
+        cat=new Cat("John",2,"Brodyaga");
+        people=new People("Ihor", "Moroz", 20, cat);
+        //extence-наслідування
     }
 }
