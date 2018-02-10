@@ -9,5 +9,6 @@ public class Main {
         String s2=ex1.getHelloWorld(3);
         String s3=ex1.getHelloWorld("ZZ");
         System.out.println(s1+s2+s3);
+
     }
 }
